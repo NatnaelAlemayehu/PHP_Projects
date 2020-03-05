@@ -1,0 +1,66 @@
+    body,
+    .main {
+        font-family: "Lato", sans-serif;
+        /* overflow-x: hidden;
+        overflow-y: scroll; */
+
+    }
+
+    /* .row {
+        margin-right: 0px;
+    } */
+
+
+    .sidenav {
+        height: 100%;
+        width: 300px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(122, 202, 255);
+        overflow-x: hidden;
+        padding-top: 20px;
+        top: 50px;
+    }
+
+
+    .main {
+        margin-left: 300px;
+        /* Same as the width of the sidenav */
+        font-size: 1rem;
+        /* Increased text to enable scrolling */
+        overflow-x: hidden;
+        padding-left: 40px;
+        margin-top: 100px;
+    }
+
+    .form-group {
+        max-width: 90%;
+        margin-left: 10px;
+    }
+
+    .card {
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+        /* .sidenav {
+            margin-bottom: 10px;
+        } */
+
+        .sidenav {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0px;
+        }
+
+        .card {
+
+            margin-bottom: 20px;
+            max-width: 370px;
+        }
+    }
